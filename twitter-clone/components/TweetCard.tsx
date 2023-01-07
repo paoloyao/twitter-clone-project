@@ -7,7 +7,6 @@ import {
   UploadIcon,
 } from '@heroicons/react/outline';
 import { fetchComments } from '../utils/fetchComments';
-import comment from '../sanity/schemas/comment';
 import { useSession } from 'next-auth/react';
 import { toast } from 'react-hot-toast';
 
